@@ -57,11 +57,22 @@ public class Student {
     public double generalAvg(long controlNumber){
         return 0.0;
     }
-    public double semestertAvg(long controlNumber, int semester ){
+    public double semesterAvg(long controlNumber, int semester ){
         return 0.0;
     }
     public double subjectGrade(long controlNumber, String subject ){
         return 0.0;
     }
 
+  public String toString(){
+
+      System.out.println("Los datos del alumno: ");
+      System.out.println("Numero de control: " + getControlNumber());
+      System.out.println("nombre: " + getName());
+      System.out.println("apellido: " + getLastName());
+      System.out.println("carrera: " + getCareer());
+      System.out.println("semestre: " + getSemester());
+      return "";
+
+    }
 }
