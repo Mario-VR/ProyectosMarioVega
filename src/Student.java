@@ -73,6 +73,5 @@ public class Student {
       System.out.println("carrera: " + getCareer());
       System.out.println("semestre: " + getSemester());
       return "";
-
     }
 }
