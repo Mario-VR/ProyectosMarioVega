@@ -21,7 +21,6 @@ public class Cuentabancaria {
         this.account_number = account_number;
         this.password = password;
         this.bank_name = bank_name;
-
     }
 public Cuentabancaria(){
 
