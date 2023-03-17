@@ -2,81 +2,72 @@ import javax.sound.midi.Soundbank;
 import java.awt.*;
 import java.util.Scanner;
 public class TestCuentaB {
-
-    int dp;
-    public static int Menu() {
-        Scanner entrada = new Scanner(System.in);
-        int option;
-
-
-
-        System.out.println("[1] Saldo");
-        System.out.println("[2] Retirar");
-        System.out.println("[3] Depositar");
-        System.out.println("[0] Salir");
-        option = entrada.nextInt();
-
-
-        return option;
-
-    }
-
-
-    int deposit;
-
-
     public static void main(String[] args) {
-        int option = 0;
+        Scanner sc = new Scanner(System.in);
+        float newbalance = 0;
+        double balance;
+        int num1 = 0, option;
 
-        System.out.println("Probando la clase Cuentabancaria ");
-        Cuentabancaria Account = new Cuentabancaria();
-        Cuentabancaria Deposit = new Cuentabancaria();
+        Cuentabancaria dueño = new Cuentabancaria("Mario", 2000, 22670080, "Hm123", "BanaMex");
 
-
-
-
-
-        Account.setBank_name("BBVA");
-        Account.setUsername("MirianBahena");
-        Account.setAccount_number(12345678);
-        Account.setPassword("m24i/");
-        Account.setBalance(2000.00);
-
-        // Account.toString(); //
 
         do {
-            option = Menu();
+            System.out.println("Que desea hacer en su cuenta? \n");
+
+            System.out.println("[1] Saldo");
+            System.out.println("[2] Retirar");
+            System.out.println("[3] Depositar");
+            System.out.println("[0] Salir");
+            option = sc.nextInt();
+
+
             if (option == 1) {
-                System.out.println("Tu saldo es: " + Account.getBalance());
+                System.out.println("Tu saldo es: " + dueño.getBalance());
 
-            }
-            if (option == 2) {
-                System.out.println("Tu saldo en la cuenta es de: " + Account.getBalance());
+            } else if (option == 2) {
+                System.out.println("---Usted hara un retiro---");
+                System.out.println("Su saldo en la cuenta es de: " + dueño.getBalance());
 
-                System.out.println("Dijite la cantidad a depositar: ");
-
-                System.out.println("Tu saldo actual en tu cuenta es de: ");
-
-            }
-            if (option == 3) {
-                System.out.println("Tu saldo es de: " + Account.getBalance());
 
                 System.out.println("Dijite la cantidad a retirar: ");
+                num1 = sc.nextInt();
 
-                System.out.println("Tu saldo actual es de: ");
+                newbalance = (float)
+                        dueño.getBalance() - num1;
+                dueño.setBalance(newbalance);
+
+                System.out.println("su saldo despues de esta operacion es: " + dueño.getBalance());
+
+            } else if (option == 3) {
+                System.out.println("---Usted hara un deposito---");
+                System.out.println("Su saldo es de: " + dueño.getBalance());
+
+                System.out.println("Dijite la cantidad a depositar: ");
+                num1 = sc.nextInt();
+
+                newbalance = (float)
+                        dueño.getBalance() + num1;
+                dueño.setBalance(newbalance);
+
+
+                System.out.println("su saldo despues de esta operacion es: " + dueño.getBalance());
+
+
+            } else
+                System.out.println("Adios, vuelva pronto :D");
 
 
             }
-
-        }while (option != 0) ;
-            System.out.println("La opcion seleccionada:  " + option);
-
-
-            Account.toString();
+            while (option >= 1 && option <= 3) ;
+            System.out.println("\n " );
 
 
-            }
+            dueño.toString();
+
+
+        }
     }
+
 
 
 
