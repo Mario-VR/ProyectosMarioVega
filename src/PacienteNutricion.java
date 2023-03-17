@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class PacienteNutricion {
     private String name;
     private String lastName;
@@ -6,13 +8,16 @@ public class PacienteNutricion {
     private double weight;
     private char gender;
 
-    public PacienteNutricion(String name, String lastName, int age, double height, double weight, char gender) {
+    private String compotition;
+
+    public PacienteNutricion(String name, String lastName, int age, double height, double weight, char gender, String compotition) {
         this.name = name;
         this.lastName = lastName;
         this.age = age;
         this.height = height;
         this.weight = weight;
         this.gender = gender;
+        this.compotition = compotition;
     }
 
     // Getters y Setters
@@ -64,10 +69,29 @@ public class PacienteNutricion {
         this.gender = gender;
     }
 
-    public PacienteNutricion() {
-
+    public String getCompotition() {
+        return compotition;
     }
 
+    public void setCompotition(String compotition) {
+        this.compotition = compotition;
+    }
+
+    public double imc(double weight,double height){
+        return weight/(height*height);
+    }
+
+    public  String Compotition(double imc){
+        if (imc < 18.5){
+            return "Debajo del peso";
+        }else if (imc >= 18.5 && imc < 25){
+            return "peso normal";
+        }else if (imc >= 25 && imc < 30){
+            return "sobre peso";
+        }else {
+            return "Obesidad";
+        }
+    }
 
 
     public String toString() {

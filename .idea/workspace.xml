@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="024e0403-e3be-4112-9a7a-1388d878d5cf" name="Changes" comment="se modifico la clase &quot;Student&quot;" />
+    <list default="true" id="024e0403-e3be-4112-9a7a-1388d878d5cf" name="Changes" comment="se creo el proyecto &quot;CuentaBancaria&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PacienteNutricion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PacienteNutricion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestPaciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestPaciente.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +47,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestStudent">
+  <component name="RunManager" selected="Application.TestPaciente">
     <configuration name="TestCuentaB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestCuentaB" />
       <module name="ProyectosMarioVegaRosendo" />
@@ -74,8 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestStudent" />
         <item itemvalue="Application.TestPaciente" />
+        <item itemvalue="Application.TestStudent" />
         <item itemvalue="Application.TestCuentaB" />
         <item itemvalue="Application.Test_SportShoe" />
       </list>
@@ -109,7 +113,8 @@
       <workItem from="1678973160802" duration="2030000" />
       <workItem from="1678988687741" duration="1021000" />
       <workItem from="1679023435441" duration="3205000" />
-      <workItem from="1679058453408" duration="3160000" />
+      <workItem from="1679058453408" duration="3321000" />
+      <workItem from="1679072598275" duration="977000" />
     </task>
     <task id="LOCAL-00001" summary="se creo la clase Test_SportShoe referente al examen">
       <created>1678845049239</created>
@@ -188,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679061547822</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="se creo el proyecto &quot;CuentaBancaria&quot;">
+      <created>1679061689593</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679061689593</updated>
+    </task>
+    <task id="LOCAL-00013" summary="se creo el proyecto &quot;CuentaBancaria&quot;">
+      <created>1679061771844</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679061771844</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +232,8 @@
     <MESSAGE value="se modifico la clase &quot;TestCuenta&quot;" />
     <MESSAGE value="se modifico la clase &quot;TestStudent&quot;" />
     <MESSAGE value="se modifico la clase &quot;Student&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="se modifico la clase &quot;Student&quot;" />
+    <MESSAGE value="se creo el proyecto &quot;CuentaBancaria&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="se creo el proyecto &quot;CuentaBancaria&quot;" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProyectosMarioVegaRosendo$TestPaciente.ic" NAME="TestPaciente Coverage Results" MODIFIED="1679025780843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
