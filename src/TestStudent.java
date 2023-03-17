@@ -9,18 +9,15 @@ public class TestStudent {
         System.out.println("Alumno semestre = " + alumno1500.getSemester());
         System.out.println("Alumno Carrera = " + alumno1500.getCareer());
 
-        System.out.println("/////////////////////////////////////////////////////////////////////////"); //Separacion//
+        System.out.println("\n"); //Separacion//
 
-        alumno1500.toString();
         alumno1500.setControlNumber(00542245);
-        alumno1500.toString();
+
         alumno1500.setName("Juan pedro");
-        alumno1500.toString();
         alumno1500.setLastName("gonzales");
-        alumno1500.toString();
         alumno1500.setSemester(2);
-        alumno1500.toString();
         alumno1500.setCareer("Mecanica");
+        alumno1500.toString();
     }
 
 
