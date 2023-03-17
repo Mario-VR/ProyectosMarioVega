@@ -11,6 +11,5 @@ public class TestPaciente {
         System.out.println("Hola "+patient.getName()+", tu IMC es: "+imc);
        String compotition = patient.Compotition(imc);
         System.out.println("Tu composicion corporal es: "+compotition);
-
     }
 }
