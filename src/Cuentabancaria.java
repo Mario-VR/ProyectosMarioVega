@@ -25,7 +25,6 @@ public class Cuentabancaria {
 public Cuentabancaria(){
 
     }
-
     public String getUsername() {
         return username;
     }
