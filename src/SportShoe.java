@@ -55,8 +55,8 @@ public class SportShoe {
     public int getAmount() {
         return amount;
     }
-    public void setAmount(int cantidad) {
-        this.amount = cantidad;
+    public void setAmount(int amount) {
+        this.amount = amount;
     }
     public String toString() {
         System.out.println("Los datos de la persona son:");

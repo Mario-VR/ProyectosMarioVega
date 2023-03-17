@@ -2,7 +2,7 @@ public class Cuentabancaria {
 
     private String username;
 
-    private Double balance;
+    private float balance;
 
     private int account_number;
 
@@ -10,10 +10,12 @@ public class Cuentabancaria {
 
     private String bank_name;
 
+    public int dp;
 
 
 
-    public Cuentabancaria(String username, double balance, int account_number, String password, String bank_name){
+
+    public Cuentabancaria(String username, float balance, int account_number, String password, String bank_name){
         this.username = username;
         this.balance = balance;
         this.account_number = account_number;
@@ -33,11 +35,11 @@ public Cuentabancaria(){
         this.username = username;
     }
 
-    public Double getBalance() {
+    public float getBalance() {
         return balance;
     }
 
-    public void setBalance(Double balance) {
+    public void setBalance(float balance) {
         this.balance = balance;
     }
 
@@ -65,11 +67,7 @@ public Cuentabancaria(){
         this.bank_name = bank_name;
     }
 
-    public String deposit(double money){
-        this.balance += money;
 
-        return "El saldo acutual es: "+ this.balance;
-    }
 
 
 

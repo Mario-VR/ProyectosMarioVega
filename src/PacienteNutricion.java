@@ -71,15 +71,17 @@ public class PacienteNutricion {
 
 
     public String toString() {
-        return "ConsultorioNutricion{" +
-                "name='" + name + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", age=" + age +
-                ", height=" + height +
-                ", weight=" + weight +
-                ", gender=" + gender +
-                '}';
+        System.out.println("Los datos del paciente son: ");
 
+        System.out.println("Nombre: " + getName());
+        System.out.println("Apellidos: " + getLastName());
+        System.out.println("Edad: " + getAge());
+        System.out.println("Altura: " + getHeight());
+        System.out.println("Peso: " + getWeight());
+        System.out.println("Genero (sexo):" + getGender() );
+        System.out.println();
+
+        return "";
     }
 
 }
