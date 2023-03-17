@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="024e0403-e3be-4112-9a7a-1388d878d5cf" name="Changes" comment="se creo el proyecto &quot;CuentaBancaria&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PacienteNutricion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PacienteNutricion.java" afterDir="false" />
+    <list default="true" id="024e0403-e3be-4112-9a7a-1388d878d5cf" name="Changes" comment="se modifico la clase &quot;PacienteNutricion&quot;">
       <change beforePath="$PROJECT_DIR$/src/TestPaciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestPaciente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +113,7 @@
       <workItem from="1679023435441" duration="3205000" />
       <workItem from="1679058453408" duration="3321000" />
       <workItem from="1679072598275" duration="977000" />
+      <workItem from="1679083253433" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="se creo la clase Test_SportShoe referente al examen">
       <created>1678845049239</created>
@@ -207,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679061771844</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="se modifico la clase &quot;PacienteNutricion&quot;">
+      <created>1679083539144</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1679083539144</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +239,8 @@
     <MESSAGE value="se modifico la clase &quot;TestStudent&quot;" />
     <MESSAGE value="se modifico la clase &quot;Student&quot;" />
     <MESSAGE value="se creo el proyecto &quot;CuentaBancaria&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="se creo el proyecto &quot;CuentaBancaria&quot;" />
+    <MESSAGE value="se modifico la clase &quot;PacienteNutricion&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="se modifico la clase &quot;PacienteNutricion&quot;" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProyectosMarioVegaRosendo$TestPaciente.ic" NAME="TestPaciente Coverage Results" MODIFIED="1679025780843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

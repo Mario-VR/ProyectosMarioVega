@@ -1,5 +1,4 @@
 public class Test_SportShoe {
-
         public static void main(String[] args) {
             SportShoe shoe = new SportShoe(
                     "Mario",
