@@ -64,7 +64,6 @@ public class TestCuentaB {
 
             dueño.toString();
 
-
         }
     }
 
